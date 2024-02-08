@@ -1,0 +1,190 @@
+.topNavBar {
+  background-color: black;
+height: 40px;
+  color: white;
+
+}
+
+.topNavBarLi {
+display: inline-block;
+text-decoration: none;
+}
+
+.btn-width{
+  width: 100%;
+}
+
+
+.blackBar {
+  background-color: black;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+.topNavBarLi a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 12px;
+  font-size: 16px;
+  
+}
+
+.navgationFont {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+}
+
+.topNavBarLi a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topNavBarLi a.active {
+  background-color: white;
+  color: black;
+}
+
+.topNavBarLi:focus {
+    border: dotted 1px black;
+
+}
+
+
+.headerOne  {
+  font-family: Quicksand;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.headerOneWhite {
+  font-family: Quicksand;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color:  white;
+}
+
+.colorStripBlue {
+  margin: 50px 0;
+  width: 100%;
+height: 184px;
+flex-shrink: 0;
+background-color: #00A3B4;
+}
+.colorStripRed {
+  margin: 50px 0;
+  width: 100%;
+height: 184px;
+flex-shrink: 0;
+background-color: #d52327;
+}
+.colorStripPurple {
+  margin: 50px 0;
+  width: 100%;
+height: 184px;
+flex-shrink: 0;
+background-color: #9B0E5B;
+}
+
+
+
+
+
+.headerTwo {
+  font-family: Quicksand;
+font-size: 32px;
+}
+.number{
+  font-family: Quicksand;
+font-size: 106px;
+}
+
+.topbar {
+  
+ 
+}
+
+
+.buttonFont {
+  font-family: Quicksand;
+font-size: 16px;
+}
+
+
+.title {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.titleText {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+
+.descriptionGrid {
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+
+}
+.gridgap {
+  margin: 0 20px;
+}
+
+
+.imgLeaderGrid {
+  width: 100%;
+
+}
+
+.headerFour {
+  font-family: "Open Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 33px; 
+}
+
+.fancyAnd {
+  font-family: Quicksand;
+font-size: 123px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.gridThreeSmallMiddle {
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr;
+  grid-column-gap: 20px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 54em) { 
+  .gridThreeSmallMiddle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+  }
+
+  .headerOne {
+    font-size: 40px;
+  }
+
+  .colorStripBlue {
+    margin: 50px 0;
+    width: 100%;
+  height: 184px;
+  flex-shrink: 0;
+  background-color: #00A3B4;
+  font-size: 32px;
+  }
+
+}
