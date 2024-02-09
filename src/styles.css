@@ -870,9 +870,9 @@ FOOTER
 }
 
 .btn-cartoon-shadow-purple:hover {
-  box-shadow: -5px 6px 0px 0px rgb(155 14 91);
-  -webkit-box-shadow: -5px 6px 0px 0px rgb(155 14 91);
-  -moz-box-shadow: -5px 6px 0px 0px rgba(155, 14, 91, 1);
+  box-shadow: -5px 6px 0px 0px #662547;
+  -webkit-box-shadow: -5px 6px 0px 0px #662547;
+  -moz-box-shadow: -5px 6px 0px 0px #662547;
   bottom: -2px;
   left: -3px;
 }
