@@ -1,36 +1,63 @@
 .topNavBar {
   background-color: black;
-height: 40px;
+  height: 110px;
   color: white;
 
 }
 
-.topNavBarLi {
-display: inline-block;
-
+header {
+  background-color: black;
+  font-family: Quicksand;
+ 
 }
+
+.centerCentreLogo {
+  width: 22%;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 23%;
+}
+
+.topNavBarLi {
+  display: inline-flex;
+}
+
 
 .btn-width{
   width: 100%;
 }
 
+.btnPurpleShadow {
+  border: 3px solid black;
+  box-shadow: -8px 8px 0px 0px rgb(155 14 91);
+  -webkit-box-shadow: -8px 8px 0px 0px rgb(155 14 91);
+  -moz-box-shadow: -8px 8px 0px 0px rgb(155, 14, 91);
+  position: relative;
+}
 
-.blackBar {
-  background-color: black;
-  height: 60px;
-  margin-bottom: 50px;
+.btnPurpleShadow:hover {
+  box-shadow: -5px 6px 0px 0px #662547;
+  -webkit-box-shadow: -5px 6px 0px 0px #662547;
+  -moz-box-shadow: -5px 6px 0px 0px #662547;
+  bottom: -2px;
+  left: -3px;
 }
 
 .topNavBarLi a {
   color: white;
   text-decoration: none;
-  padding: 14px 12px;
-  font-size: 16px;
+  padding: 0 12px;
+  height: 90px;
+  font-size: 24px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-
-  
+  font-family: Quicksand;
 }
 
 .navgationFont {
@@ -78,21 +105,21 @@ margin: 56px 0;
 .colorStripBlue {
   margin: 50px 0;
   width: 100%;
-height: 184px;
+height: auto;
 flex-shrink: 0;
 background-color: #00A3B4;
 }
 .colorStripRed {
   margin: 50px 0;
   width: 100%;
-height: 184px;
+height: auto;
 flex-shrink: 0;
 background-color: #d52327;
 }
 .colorStripPurple {
   margin: 50px 0;
   width: 100%;
-height: 184px;
+height: auto;
 flex-shrink: 0;
 background-color: #9B0E5B;
 }
@@ -151,7 +178,8 @@ font-size: 16px;
 }
 
 .headerFour {
-  font-family: "Open Sans";
+  font-family: Quicksand;
+  ;
 font-size: 24px;
 font-style: normal;
 font-weight: 800;
@@ -184,7 +212,28 @@ line-height: normal;
   padding: 0;
 
 }
+.centerFont {
+  display: flex;
+  justify-content: center;}
 
+.connectGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 5px;
+
+
+}
+
+.connectGrid img {
+  width: 100%;
+}
+
+.linkinLink {
+  color: black;
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 21px;
+}
 
 
 @media only screen and (max-width: 54em) { 
