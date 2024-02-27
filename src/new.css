@@ -105,21 +105,21 @@ margin: 56px 0;
 .colorStripBlue {
   margin: 50px 0;
   width: 100%;
-height: 184px;
+height: auto;
 flex-shrink: 0;
 background-color: #00A3B4;
 }
 .colorStripRed {
   margin: 50px 0;
   width: 100%;
-height: 184px;
+height: auto;
 flex-shrink: 0;
 background-color: #d52327;
 }
 .colorStripPurple {
   margin: 50px 0;
   width: 100%;
-height: 184px;
+height: auto;
 flex-shrink: 0;
 background-color: #9B0E5B;
 }
@@ -178,7 +178,8 @@ font-size: 16px;
 }
 
 .headerFour {
-  font-family: "Open Sans";
+  font-family: Quicksand;
+  ;
 font-size: 24px;
 font-style: normal;
 font-weight: 800;
@@ -214,6 +215,25 @@ line-height: normal;
 .centerFont {
   display: flex;
   justify-content: center;}
+
+.connectGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 5px;
+
+
+}
+
+.connectGrid img {
+  width: 100%;
+}
+
+.linkinLink {
+  color: black;
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 21px;
+}
 
 
 @media only screen and (max-width: 54em) { 
