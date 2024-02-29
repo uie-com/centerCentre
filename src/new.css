@@ -12,15 +12,18 @@ header {
 }
 
 .centerCentreLogo {
-  width: 22%;
+  width: 20%;
+  border: #d52327 solid 3px;
 }
 
 .mainNav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: 0 23%;
+  width: 70%;
+  margin: 0 0 0 30%;
+  border: #d52327 solid 3px;
+  float: right;
 }
 
 .topNavBarLi {
@@ -51,7 +54,7 @@ header {
 .topNavBarLi a {
   color: white;
   text-decoration: none;
-  padding: 0 12px;
+  padding: 0 16px;
   height: 90px;
   font-size: 24px;
   display: inline-flex;
@@ -69,8 +72,8 @@ header {
 }
 
 .topNavBarLi a:hover {
-  background-color: white;
-  color: black;
+  background-color: #00A3B4;
+  color: white;
 }
 
 .topNavBarLi a.active {
@@ -79,7 +82,8 @@ header {
 }
 
 .topNavBarLi:focus {
-    border: dotted 1px black;
+    border: dotted 3px white;
+    padding: 2px;
 
 }
 
