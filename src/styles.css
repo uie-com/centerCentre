@@ -106,7 +106,11 @@ FOOTER
   /*------------------------------------*\
       $SPACING
   \*------------------------------------*/
-  
+  .px-half1 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
   .px-1 {
     padding-left: 1em;
     padding-right: 1em;
