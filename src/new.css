@@ -108,7 +108,32 @@ header {
   display: none;
   position: absolute;
  margin: 0 0 0 180px;
-  background-color: #000000;
+  background-color: white;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 400;
+  
+}
+
+/* Dropdown button */
+.dropdownprogram-btn {
+
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdownprogram-content {
+  display: none;
+  position: absolute;
+ margin: 0 0 0 180px;
+  background-color: white;
+
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   text-decoration: none;
@@ -127,7 +152,7 @@ font-size: 32px;
 
 }
 
-.sectionGuildingLi:hover {
+.sectionGuildingLi a:hover {
   text-decoration: none;
   font-size: 28px;/* 100% */
   color: white;
@@ -135,12 +160,30 @@ font-size: 32px;
   
  }
 
+ .sectionGuildingLiProgram a:hover {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color: white;
+  background-color: #00A3B4;
+  
+ }
+
+
 .sectionGuildingLi{ 
   
   font-family: Quicksand;
   padding: 10px 0;
 }
+.sectionGuildingLiProgram {
+  font-family: Quicksand;
+  padding: 10px 0;
+}
 
+.dropdownprogram-content li {
+  color: white;
+  
+  text-decoration: none;
+}
 
 .dropdown-content li {
   color: white;
@@ -152,14 +195,40 @@ font-size: 32px;
 .sectionGuildingLi a {
  text-decoration: none;
  font-size: 28px;/* 100% */
- color: white;
+ color:#000000;
  padding:  10px;
  border-left: #00A3B4 10px solid;
  font-family: Quicksand;
  
 }
 
+.sectionGuildingLiProgram a {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color:#000000;
+  padding:  10px;
+  border-left: #00A3B4 10px solid;
+  font-family: Quicksand;
+  
+ }
+
 .sectionStratgy {
+  background-color: #d52327;
+  font-size: 28px;
+  list-style-type: none;
+  padding: 10px 20px;
+  font-family: Quicksand;
+}
+
+.sectionStratgyLiProgram a {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color:#000000;
+  padding: 10px;
+  border-left: #d52327 10px solid;
+  font-family: Quicksand;
+ }
+ .sectionStratgy {
   background-color: #d52327;
   font-size: 28px;
   list-style-type: none;
@@ -170,7 +239,7 @@ font-size: 32px;
 .sectionStratgyLi a {
   text-decoration: none;
   font-size: 28px;/* 100% */
-  color: white;
+  color:#000000;
   padding: 10px;
   border-left: #d52327 10px solid;
   font-family: Quicksand;
@@ -180,7 +249,7 @@ font-size: 32px;
   padding: 10px 0;
  }
 
-.sectionStratgyLi:hover {
+.sectionStratgyLi a:hover {
   text-decoration: none;
   font-size: 28px;/* 100% */
   color: white;
@@ -188,7 +257,7 @@ font-size: 32px;
   
  }
 
-.sectionConnecting {
+.sectionConnectingLiProgram {
   background-color: #9b0e5b;;
   font-size: 28px;
   list-style-type: none;
@@ -196,27 +265,77 @@ font-size: 32px;
   font-family: Quicksand;
 }
 
-.sectionConnectingLi a {
+.sectionConnectingLiProgram a {
   text-decoration: none;
   font-size: 28px;/* 100% */
-  color: white;
+  color:#000000;
   padding: 10px;
   border-left: #9b0e5b 10px solid;
   font-family: Quicksand;
  }
 
- .sectionConnectingLi {
+ .sectionConnectingLiProgram {
   font-family: Quicksand;
   padding: 10px 0;
  }
 
-.sectionConnectingLi:hover {
+.sectionConnectingLiProgram a:hover {
   text-decoration: none;
   font-size: 28px;/* 100% */
   color: white;
   background-color: #9b0e5b;
   
  }
+ .sectionStratgyLiProgram a {
+ text-decoration: none;
+ font-size: 28px;/* 100% */
+ color:#000000;
+ padding: 10px;
+ border-left: #d52327 10px solid;
+ font-family: Quicksand;
+}
+.sectionStratgyLiProgram {
+ font-family: Quicksand;
+ padding: 10px 0;
+}
+
+.sectionStratgyLiProgram a:hover {
+ text-decoration: none;
+ font-size: 28px;/* 100% */
+ color: white;
+ background-color: #d52327;
+ 
+}
+
+.sectionConnecting {
+ background-color: #9b0e5b;;
+ font-size: 28px;
+ list-style-type: none;
+ padding: 10px 20px;
+ font-family: Quicksand;
+}
+
+.sectionConnectingLi a {
+ text-decoration: none;
+ font-size: 28px;/* 100% */
+ color:#000000;
+ padding: 10px;
+ border-left: #9b0e5b 10px solid;
+ font-family: Quicksand;
+}
+
+.sectionConnectingLi {
+ font-family: Quicksand;
+ padding: 10px 0;
+}
+
+.sectionConnectingLi a:hover {
+ text-decoration: none;
+ font-size: 28px;/* 100% */
+ color: white;
+ background-color: #9b0e5b;
+ 
+}
 
 /* Show dropdown content when button is clicked */
 .dropdown:hover .dropdown-content {

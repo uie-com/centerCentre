@@ -1,0 +1,163 @@
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-btn {
+
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownprogram-btn {
+
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+ margin: 0 0 0 180px;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  
+}
+
+.dropdownprogram-content {
+  display: none;
+  position: absolute;
+ margin: 0 0 0 300px;
+  background-color: #000000;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 400;
+  
+}
+
+.sectionGuilding {
+  list-style-type: none;
+  padding: 10px 20px;
+  
+  font-family: Quicksand;
+  text-decoration: none;
+background-color: #00A3B4;
+font-size: 32px;
+
+}
+
+.dropdownGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.sectionGuildingLi:hover {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color: white;
+  background-color: #00A3B4;
+  
+ }
+
+.sectionGuildingLi{ 
+  
+  font-family: Quicksand;
+  padding: 10px 0;
+}
+
+
+.dropdown-content li {
+  color: white;
+  
+  text-decoration: none;
+}
+
+/* Links inside the dropdown */
+.sectionGuildingLi a {
+ text-decoration: none;
+ font-size: 28px;/* 100% */
+ 
+ padding:  10px;
+ border-left: #00A3B4 10px solid;
+ font-family: Quicksand;
+ 
+}
+
+.sectionStratgy {
+  background-color: #d52327;
+  font-size: 28px;
+  list-style-type: none;
+  padding: 10px 20px;
+  font-family: Quicksand;
+}
+
+.sectionStratgyLi a {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  
+  padding: 10px;
+  border-left: #d52327 10px solid;
+  font-family: Quicksand;
+ }
+ .sectionStratgyLi {
+  font-family: Quicksand;
+  padding: 10px 0;
+ }
+
+.sectionStratgyLi:hover {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color: white;
+  background-color: #d52327;
+  
+ }
+
+.sectionConnecting {
+  background-color: #9b0e5b;;
+  font-size: 28px;
+  list-style-type: none;
+  padding: 10px 20px;
+  font-family: Quicksand;
+  text-decoration: none;
+}
+
+.sectionConnectingLi a {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color:#000000;
+  padding: 10px;
+  border-left: #9b0e5b 10px solid;
+  font-family: Quicksand;
+  border: solid 1px black;
+ }
+.sectionConnectingLi::marker {
+  text-decoration: none;
+ }
+ .sectionConnectingLi {
+  font-family: Quicksand;
+  padding: 10px 0;
+  text-decoration: none;
+ }
+
+.sectionConnectingLi:hover {
+  text-decoration: none;
+  font-size: 28px;/* 100% */
+  color: white;
+  background-color: #9b0e5b;
+  text-decoration: none;
+ }
