@@ -714,7 +714,7 @@ FOOTER
   }
   
   .btn-white {
-    color: var(--buttonTextColor);
+    color: var(--black);
     background-color: var(--white);
 }
   .btn-white:hover {

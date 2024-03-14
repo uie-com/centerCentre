@@ -398,10 +398,6 @@ font-size: 32px;
 font-size: 106px;
 }
 
-.topbar {
-  
- 
-}
 
 
 .buttonFont {
@@ -429,6 +425,7 @@ font-size: 16px;
 .gridgap {
   margin: 0 20px;
 }
+
 
 
 .imgLeaderGrid {
@@ -516,7 +513,6 @@ line-height: normal;
 
 .colorStripBlue {
   margin: 50px 0;
-
   width: 100%;
 height: auto;
 flex-shrink: 0;
