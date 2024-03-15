@@ -628,7 +628,6 @@ FOOTER
     justify-content: space-between;
   }
 
-
   
   @media screen and (max-width: 27em) {
     #header .btn {
@@ -672,7 +671,7 @@ FOOTER
     align-items: center;
     font-family: Quicksand;
   }
-  
+
   .navgationFont {
     font-family: "Open Sans";
     font-size: 16px;
@@ -1554,6 +1553,48 @@ FOOTER
   .skip-to-content-link:focus {
     transform: translateY(0%);
   }
+
+  /*------------------------------------*\
+      $FOOTER
+  \*------------------------------------*/
+
+.footerArea {
+    background-color: #000000;
+    color: white;
+    padding: 50px 0;
+    text-align: left;
+  }
+
+  .textBoxFooter {
+    padding: 0 10px 0 0;
+margin: 0 20px 0 0;
+  }
+
+  .footerGrid {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr;
+    grid-gap: 20px;
+  }
+
+.footerLinksUl  {
+    text-decoration: none;
+  }
+
+.footerLinks{
+    list-style-type: none;
+    padding-left: 1%;
+  
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: Quicksand;
+  border-bottom: 1px solid white;
+  
+}
+
 
   @media only screen and (max-width: 625px) {
     .ft-mk {
