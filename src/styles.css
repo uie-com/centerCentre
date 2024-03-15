@@ -565,7 +565,38 @@ FOOTER
   .text-white {
     color: var(--white);
   }
+
+   /*------------------------------------*\
+      $NEW TYPOGRAPHY 2024 landing page 
+      For accessiable coding use h2 and ad a class for the style you wish to apply 
+  \*------------------------------------*/
   
+  .headerOne  {
+    font-family: Quicksand;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 56px 0;
+  }
+  
+  .headerOneWhite {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:  white;
+  }
+  
+  .headerFour {
+    font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 33px; 
+  }
+
   /*------------------------------------*\
       END $TYPOGRAPHY
   \*------------------------------------*/
@@ -573,7 +604,7 @@ FOOTER
   /*------------------------------------*\
       $COMPONENTS
   \*------------------------------------*/
-  
+
   /*------------------------------------*\
       $TOPBAR
   \*------------------------------------*/
@@ -596,6 +627,8 @@ FOOTER
     display: flex;
     justify-content: space-between;
   }
+
+
   
   @media screen and (max-width: 27em) {
     #header .btn {
@@ -610,6 +643,327 @@ FOOTER
     }
   }
   
+  /*------------------------------------*\
+      $ TOPBAR Landing page updated 2024
+  \*------------------------------------*/
+  .topNavBar {
+    background-color: black;
+    height: 110px;
+    color: white;
+   }
+  
+  header {
+    background-color: black;
+    font-family: Quicksand;
+   
+  }
+  .topNavBarLi {
+    display: inline-flex;
+  }
+
+  .topNavBarLi a {
+    color: white;
+    text-decoration: none;
+    padding: 0 16px;
+    height: 90px;
+    font-size: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+  }
+  
+  .navgationFont {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+}
+
+.topNavBarLi a:hover {
+  background-color: #00A3B4;
+  color: white;
+}
+
+.topNavBarLi a.active {
+  background-color: white;
+  color: black;
+}
+
+.topNavBarLi:focus {
+    border: dotted 3px white;
+    padding: 2px;
+  }
+
+  .mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 0 0 30%;
+    border: #d52327 solid 3px;
+    float: right;
+  }
+  /*------------------------------------*\
+      $TOPBAR Dropdown CSS
+  \*------------------------------------*/
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown button */
+  .dropdown-btn {
+  
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   margin: 0 0 0 180px;
+    background-color: white;
+  
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    font-weight: 400;
+    
+  }
+  
+  /* Dropdown button */
+  .dropdownprogram-btn {
+  
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content */
+  .dropdownprogram-content {
+    display: none;
+    position: absolute;
+   margin: 0 0 0 180px;
+    background-color: white;
+  
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    font-weight: 400;
+    
+  }
+  
+  .sectionGuilding {
+    list-style-type: none;
+    padding: 10px 20px;
+    
+    font-family: Quicksand;
+    text-decoration: none;
+  background-color: #00A3B4;
+  font-size: 32px;
+  
+  }
+  
+  .sectionGuildingLi a:hover {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color: white;
+    background-color: #00A3B4;
+    
+   }
+  
+   .sectionGuildingLiProgram a:hover {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color: white;
+    background-color: #00A3B4;
+    
+   }
+  
+  
+  .sectionGuildingLi{ 
+    
+    font-family: Quicksand;
+    padding: 10px 0;
+  }
+  .sectionGuildingLiProgram {
+    font-family: Quicksand;
+    padding: 10px 0;
+  }
+  
+  .dropdownprogram-content li {
+    color: white;
+    
+    text-decoration: none;
+  }
+  
+  .dropdown-content li {
+    color: white;
+    
+    text-decoration: none;
+  }
+  
+  /* Links inside the dropdown */
+  .sectionGuildingLi a {
+   text-decoration: none;
+   font-size: 28px;/* 100% */
+   color:#000000;
+   padding:  10px;
+   border-left: #00A3B4 10px solid;
+   font-family: Quicksand;
+   
+  }
+  
+  .sectionGuildingLiProgram a {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color:#000000;
+    padding:  10px;
+    border-left: #00A3B4 10px solid;
+    font-family: Quicksand;
+    
+   }
+  
+  .sectionStratgy {
+    background-color: #d52327;
+    font-size: 28px;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-family: Quicksand;
+  }
+  
+  .sectionStratgyLiProgram a {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color:#000000;
+    padding: 10px;
+    border-left: #d52327 10px solid;
+    font-family: Quicksand;
+   }
+   .sectionStratgy {
+    background-color: #d52327;
+    font-size: 28px;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-family: Quicksand;
+  }
+  
+  .sectionStratgyLi a {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color:#000000;
+    padding: 10px;
+    border-left: #d52327 10px solid;
+    font-family: Quicksand;
+   }
+   .sectionStratgyLi {
+    font-family: Quicksand;
+    padding: 10px 0;
+   }
+  
+  .sectionStratgyLi a:hover {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color: white;
+    background-color: #d52327;
+    
+   }
+  
+  .sectionConnectingLiProgram {
+    background-color: #9b0e5b;;
+    font-size: 28px;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-family: Quicksand;
+  }
+  
+  .sectionConnectingLiProgram a {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color:#000000;
+    padding: 10px;
+    border-left: #9b0e5b 10px solid;
+    font-family: Quicksand;
+   }
+  
+   .sectionConnectingLiProgram {
+    font-family: Quicksand;
+    padding: 10px 0;
+   }
+  
+  .sectionConnectingLiProgram a:hover {
+    text-decoration: none;
+    font-size: 28px;/* 100% */
+    color: white;
+    background-color: #9b0e5b;
+    
+   }
+   .sectionStratgyLiProgram a {
+   text-decoration: none;
+   font-size: 28px;/* 100% */
+   color:#000000;
+   padding: 10px;
+   border-left: #d52327 10px solid;
+   font-family: Quicksand;
+  }
+  .sectionStratgyLiProgram {
+   font-family: Quicksand;
+   padding: 10px 0;
+  }
+  
+  .sectionStratgyLiProgram a:hover {
+   text-decoration: none;
+   font-size: 28px;/* 100% */
+   color: white;
+   background-color: #d52327;
+   
+  }
+  
+  .sectionConnecting {
+   background-color: #9b0e5b;;
+   font-size: 28px;
+   list-style-type: none;
+   padding: 10px 20px;
+   font-family: Quicksand;
+  }
+  
+  .sectionConnectingLi a {
+   text-decoration: none;
+   font-size: 28px;/* 100% */
+   color:#000000;
+   padding: 10px;
+   border-left: #9b0e5b 10px solid;
+   font-family: Quicksand;
+  }
+  
+  .sectionConnectingLi {
+   font-family: Quicksand;
+   padding: 10px 0;
+  }
+  
+  .sectionConnectingLi a:hover {
+   text-decoration: none;
+   font-size: 28px;/* 100% */
+   color: white;
+   background-color: #9b0e5b;
+   
+  }
+  
+  /* Show dropdown content when button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
   /*------------------------------------*\
       $END TOPBAR
   \*------------------------------------*/
@@ -899,7 +1253,6 @@ FOOTER
   left: -3px;
 }
 
-
   
   .btn-agile {
     color: var(--white);
@@ -982,6 +1335,30 @@ FOOTER
     left: -3px;
   }
   
+  /*------------------------------------*\
+    $BUTTON 2024
+  \*------------------------------------*/
+  .buttonFont {
+    font-family: Quicksand;
+  font-size: 16px;
+  }
+
+  .btnPurpleShadow {
+    border: 3px solid black;
+    box-shadow: -8px 8px 0px 0px rgb(155 14 91);
+    -webkit-box-shadow: -8px 8px 0px 0px rgb(155 14 91);
+    -moz-box-shadow: -8px 8px 0px 0px rgb(155, 14, 91);
+    position: relative;
+  }
+  
+  .btnPurpleShadow:hover {
+    box-shadow: -5px 6px 0px 0px #662547;
+    -webkit-box-shadow: -5px 6px 0px 0px #662547;
+    -moz-box-shadow: -5px 6px 0px 0px #662547;
+    bottom: -2px;
+    left: -3px;
+  }
+
   /*------------------------------------*\
        END   $BUTTON
   \*------------------------------------*/
@@ -1276,4 +1653,168 @@ FOOTER
   /*------------------------------------*\
      END $FOOTER
   \*------------------------------------*/
+    
+  /*------------------------------------*\
+    END $NEW CSS STUFF FOR LANDING PAGE 2024
+  \*------------------------------------*/
+
+  .number{
+    font-family: Quicksand;
+  font-size: 106px;
+  }
   
+.marginTop {
+  margin-top: 25px;
+}
+.colorStripBlue {
+  margin: 50px 0;
+  width: 100%;
+height: auto;
+flex-shrink: 0;
+background-color: #00A3B4;
+}
+.colorStripRed {
+  margin: 50px 0;
+  width: 100%;
+height: auto;
+flex-shrink: 0;
+background-color: #d52327;
+}
+.colorStripPurple {
+  margin: 50px 0;
+  width: 100%;
+height: auto;
+flex-shrink: 0;
+background-color: #9B0E5B;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.titleText {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+
+.descriptionGrid {
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+
+}
+.gridgap {
+  margin: 0 20px;
+}
+
+.btn-width{
+  width: 100%;
+}
+
+.imgLeaderGrid {
+  width: 100%;
+
+}
+
+.headerFour {
+  font-family: Quicksand;
+  ;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 33px; 
+}
+
+.fancyAnd {
+  font-family: Quicksand;
+font-size: 123px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.gridThreeSmallMiddle {
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr;
+  grid-column-gap: 20px;
+  margin-top: 50px;
+}
+
+.lineThink {
+  border: 3px solid #000000;
+  width: 100%;
+  margin: 75px 0;
+}
+
+.ulTab {
+  margin: 0 5%;
+  padding: 0;
+
+}
+.centerFont {
+  display: flex;
+  justify-content: center;}
+
+.connectGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 5px;
+
+
+}
+
+.connectGrid img {
+  width: 100%;
+}
+
+.linkinLink {
+  color: black;
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 21px;
+}
+
+
+@media only screen and (max-width: 54em) { 
+  .gridThreeSmallMiddle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+  }
+.descriptionGrid { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+  margin-top: 50px;
+}
+  .headerOne {
+    font-size: 40px;
+  }
+
+ 
+
+.colorStripBlue {
+  margin: 50px 0;
+  width: 100%;
+height: auto;
+flex-shrink: 0;
+background-color: #00A3B4;
+font-size: 32px;
+}
+
+  .headerOne {
+    font-size: 40px;
+  }
+
+  .colorStripBlue {
+    margin: 50px 0;
+    width: 100%;
+  height: 184px;
+  flex-shrink: 0;
+  background-color: #00A3B4;
+  font-size: 32px;
+  }
+
+}
